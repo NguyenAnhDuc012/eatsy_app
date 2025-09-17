@@ -28,7 +28,7 @@ class HomePage extends StatelessWidget {
             ),
           ],
         ),
-        backgroundColor: const Color.fromARGB(255, 200, 150, 100),
+        backgroundColor: Colors.grey[300],
         elevation: 0.0,
         centerTitle: true,
 
@@ -47,7 +47,7 @@ class HomePage extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Hàng tìm kiếm + filter
+              // Hàng tìm kiếm + filter (ngắn gọn)
               Row(
                 children: [
                   Expanded(
@@ -59,20 +59,6 @@ class HomePage extends StatelessWidget {
                           vertical: 12,
                         ),
                         border: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(12),
-                          borderSide: const BorderSide(
-                            color: Colors.black,
-                            width: 1,
-                          ),
-                        ),
-                        enabledBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(12),
-                          borderSide: const BorderSide(
-                            color: Colors.black,
-                            width: 1,
-                          ),
-                        ),
-                        focusedBorder: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(12),
                           borderSide: const BorderSide(
                             color: Colors.black,
